@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  background-color: #CCC;
+  color: #282c34;
+  padding: 5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fixed{
+  box-sizing: content-box;
+  width: 250%;
+  text-align: left;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table{
+  text-align: center;
+}
+
+tr, td{
+  padding: 8px;
+  background-color:rgb(194, 194, 194);
+}
+
+th {
+  padding: 8px;
+  font-weight: bolder;
+  background-color:rgb(167, 167, 167);
+}
+
+table { 
+  margin: auto; 
+}
+
+Button{
+  padding: 10px;
+  border: 1px solid #CCC;
+  background-color:darkseagreen;
+  color:darkgreen;
+  border-color:darkgreen;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label, input {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navLinks{
+  padding: 7px;
+  border: 1px solid #CCC;
+  background-color:lightskyblue;
+  color:navy;
+  border-color:navy;
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.iconLinks {
+  cursor: pointer;
+}
+
+.tdAlignRight{
+  text-align: right;
+}
+
+.tdAlignLeft{
+  text-align: left;
+}
+
+.homepageContentHolder{
+  margin-top: 20px;
+}
